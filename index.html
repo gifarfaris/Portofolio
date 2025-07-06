@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gifar's Portofolio</title>
+    <meta name="description" content="Full Stack Developer specializing in React, Node.js, and modern web technologies">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Welcome!</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                    <div class="text-center">
+                        <img src="images/profile.jpg" alt="Profile" class="img-fluid rounded-circle" style="max-width: 50%;">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="fade-in">Gifar Faris H</h1>
+                        <p class="lead fade-in"> Full Stack Web-Developer</p>
+                        <p class="fade-in">Passionate about creating innovative web solutions. I turn caffeine into websites that bring solution to life. </p>
+                        <div class="fade-in">
+                            <a href="#portfolio" class="btn btn-primary me-3">View My Work</a>
+                            <a href="#contact" class="btn btn-outline-light">Get In Touch</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>About Me</h2>
+                <p>Get to know more about my background and passion for web development</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="text-center fade-in">
+                        <p class="lead">I'm a passionate Full Stack Developer with expertise in modern web technologies. I love creating seamless user experiences and robust backend solutions that solve real-world problems.</p>
+                        <p>With a solid foundation in JavaScript frameworks like React.js and Node.js, I merge creative problem-solving with full-stack expertise to build dynamic, user-focused web applications that not only work great but feel great to use.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5" style="background-color: var(--darker-bg);">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Skills & Technologies</h2>
+                <p>Technologies I work with to build amazing applications</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="skill-item fade-in">
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h5>React</h5>
+                        <p>Building interactive UIs</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="skill-item fade-in">
+                        <div class="skill-icon">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <h5>JavaScript</h5>
+                        <p>ES6+ & Modern JS</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="skill-item fade-in">
+                        <div class="skill-icon">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <h5>Node.js</h5>
+                        <p>Server-side development</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="skill-item fade-in">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h5>SQL</h5>
+                        <p>Database management</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>My Portfolio</h2>
+                <p>Check out some of my recent projects</p>
+            </div>
+            <div class="row" style="justify-content: center;">
+                <div class="col-lg-6 mb-4">
+                    <div class="portfolio-item fade-in">
+                        <video class="portfolio-video" poster="https://via.placeholder.com/600x300/0d6efd/ffffff?text=Project+1" controls>
+                            <source src="#" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="portfolio-content">
+                            <h4 class="portfolio-title">Real-Time Defect Monitoring System</h4>
+                            <p class="portfolio-description">A real-time defect monitoring web application developed to enhance quality control on the production floor by allowing inspectors to quickly log defects with image evidence, scan units using QR codes, and instantly reflect the data across all user dashboards. The system enables fast and traceable defect reporting, supports role-based access, and helps quality teams identify trends and take corrective actions efficiently.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Socket.io</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Chart.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="portfolio-item fade-in">
+                        <video class="portfolio-video" poster="./images/calibration-portal.jpg" controls>
+                            <source src="./videos/calibration_portal.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="portfolio-content">
+                            <h4 class="portfolio-title">Torque Wrench Calibration Portal</h4>
+                            <p class="portfolio-description">A web-based application developed to streamline and digitize the calibration process of torque wrenches in an Assembly Plant. The portal enables QC engineers to log, track, and review calibration records with high accuracy and traceability.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Express</span>
+                                
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="portfolio-item fade-in">
+                        <video class="portfolio-video" poster="images/edulens.jpg" controls>
+                            <source src="videos/edulens.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="portfolio-content">
+                            <h4 class="portfolio-title">Edulens</h4>
+                            <p class="portfolio-description">A responsive educational platform  that integrates various administrative and academic functions within an educational institution.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Angular</span>
+                                <span class="tech-tag">Typescript</span>
+                                <span class="tech-tag">API Integration</span>
+                                <span class="tech-tag">CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5" style="background-color: var(--darker-bg);">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Experience & Education</h2>
+                <p>My professional journey and educational background</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="mb-4 text-center">Experience</h3>
+                    <div class="timeline">
+                      <div class="timeline-item fade-in">
+                          <div class="timeline-date">2023 - Present</div>
+                          <h4 class="timeline-title">Section Head in Quality Department</h4>
+                          <div class="timeline-company">PT. KRM (Mitsubishi Fuso Assembly Plant)</div>
+                          <p>Led and contributed to multiple digitalization projects within the Quality Department, building internal tools and web applications using React.js, Node.js, and PostgreSQL.</p>
+                          <p>Developed real-time dashboards, defect tracking systems, and inspection apps to streamline quality processes. Collaborated cross-functionally with production, engineering, and IT teams to drive process improvements through technology. </p>
+                      </div>
+                      <div class="timeline-item fade-in">
+                          <div class="timeline-date">2018 - 2019</div>
+                          <h4 class="timeline-title">Frontend Web Developer</h4>
+                          <div class="timeline-company">Edulens for Business Competition</div>
+                          <p>Developed responsive web applications and improving user experience. Gained experience in UI/UX implementation and API integration.</p>
+                          <p> <i>Achievement</i>: </p>
+                          <ul>
+                            <li>Startup funding from LPIK ITB - 2018</li>
+                            <li>Finalist KBMI (Kompetisi Bisnis Mahasiswa Indonesia) - 2019 </li>
+                            <li>Scale-up funding from Kemenristekdikti - 2019</li>
+                          </ul>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4 text-center">Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-date">2016 - 2020</div>
+                            <h4 class="timeline-title">Bachelor of Materials Engineering</h4>
+                            <div class="timeline-company">Institut Teknologi Bandung</div>
+                            <p>
+                              Developed strong interest in numerical analysis, computational simulation, and software development. 
+                            </p>
+                            <p>
+                              My final project involved applying the Finite Element Method to simulate and analyze the corrosion resistance of materials. 
+                            </p>
+                            <i>
+                              "The work combined technical knowledge of materials with programming skills, data processing, and logical computational modeling"
+                            </i>
+                        </div>
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-date">2021</div>
+                            <h4 class="timeline-title">Full Stack Web Development Bootcamp</h4>
+                            <div class="timeline-company">Udemy</div>
+                            <p>Intensive 61.5 hours learning program focusing on modern web development technologies including HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps</p>
+                            <small>Certificate no: UC-1a0df28e-d159-46a6-bc57-719fbfdb2c77 </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact py-5">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Get In Touch</h2>
+                <p>Let's discuss your next project or collaboration opportunity</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-info fade-in">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope contact-icon"></i>
+                                    <div>
+                                        <h5>Email</h5>
+                                        <p>gifar.faris@gmail.com</p>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                            <div class="col-12 col-md-4">
+                                 <div class="contact-item">
+                                    <i class="fas fa-phone contact-icon"></i>
+                                    <div>
+                                        <h5>Phone</h5>
+                                        <p>+62 8516-2966-604</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt contact-icon"></i>
+                                    <div>
+                                        <h5>Location</h5>
+                                        <p>Jakarta, Indonesia</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/gifar-hafiz-161915327/" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.instagram.com/gifarfh/" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Gifar FH. All rights reserved. Built with passion and modern web technologies.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+   
+</body>
+</html>
